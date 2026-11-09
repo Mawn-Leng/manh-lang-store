@@ -5,7 +5,7 @@ window.STORE_APPS = [
     version: "9.9.30",
     type: "IPA",                    // ← thêm type
     file: "https://drive.google.com/uc?export=download&id=1nwxDSUAHFBM8pCBQSjVumE4wOoGt1tEL",
-    icon: "Meitu.PNG",
+    icon: "images/Meitu.PNG",
     available: true
   },
 {
@@ -14,7 +14,7 @@ window.STORE_APPS = [
   version: "1.0.0",
   type: "DNS",
   file: "https://t.me/manhlang",
-  icon: "Ken.PNG",
+  icon: "images/Ken.PNG",
   available: true,
   buttonText: "Liên hệ Admin"   // ← thêm dòng này
 },
@@ -24,7 +24,7 @@ window.STORE_APPS = [
     version: "1.9",
     type: "Chứng chỉ",
     file: "https://t.me/manhlang",
-    icon: "Esign.WEBP",
+    icon: "images/Esign.WEBP",
     available: true
   }
 ];
