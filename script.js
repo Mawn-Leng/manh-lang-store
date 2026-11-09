@@ -45,3 +45,14 @@ function escapeHTML(value) {
     "'": "&#39;"
   }[c]));
 }
+// Hiện popup khi vào web
+window.addEventListener("load", function() {
+  // Hiện popup sau 0.8 giây
+  setTimeout(() => {
+    document.getElementById("telegram-popup").style.display = "flex";
+  }, 800);
+});
+
+function closePopup() {
+  document.getElementById("telegram-popup").style.display = "none";
+}
