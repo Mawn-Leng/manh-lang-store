@@ -9,11 +9,11 @@ window.STORE_APPS = [
     available: true
   },
   {
-    name: "DNS Locket Gold AI",
+    name: "DNS Locket Gold AI liên hệ Admin",
     description: "Mở khoá Locket Gold",
     version: "1.0.0",
     type: "DNS",                    // ← quan trọng: ghi DNS
-    file: "https://ctv.locketvn.net/api/dns/download/dns_ICy1rED29Eauugg5x5cpyj5Eomqsyhsp",
+    file: "https://t.me/manhlang",
     icon: "Ken.PNG",
     available: true
   }
