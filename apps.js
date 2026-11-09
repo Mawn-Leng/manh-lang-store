@@ -14,6 +14,6 @@ window.STORE_APPS = [
    description: "Mở khoá Locket Gold",
      file: "https://ctv.locketvn.net/api/dns/download/dns_ICy1rED29Eauugg5x5cpyj5Eomqsyhsp",
      icon: "Ken.PNG",
-     available: ture
+     available: true
   }
 ];
