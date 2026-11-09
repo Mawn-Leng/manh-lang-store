@@ -88,3 +88,120 @@ footer{padding:23px max(6vw,22px);border-top:1px solid #ffffff12;display:flex;ju
   font-size: 13px;
   cursor: pointer;
 }
+/* ===== PHẦN TRANG CÁ NHÂN ===== */
+.personal-section {
+  padding: 30px 20px 10px;
+  text-align: center;
+  position: relative;
+}
+
+.typing {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 13px;
+  color: #9aa6c0;
+  font-weight: 500;
+}
+.typing span:first-child { color: #8da8ff; }
+
+.profile-card {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 55px;
+  background: linear-gradient(135deg, #4c1d95, #7c3aed);
+}
+
+.banner .bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.avatar-wrapper {
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 96px;
+  height: 96px;
+}
+
+.avatar-ring {
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6);
+  animation: spin 6s linear infinite;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  border: 3px solid transparent;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0b1020;
+  position: relative;
+  z-index: 2;
+}
+
+.status {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  width: 14px;
+  height: 14px;
+  background: #22c55e;
+  border: 3px solid #0b1020;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.profile-card h1 {
+  font-size: 22px;
+  margin: 8px 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.verified { color: #3b82f6; font-size: 16px; }
+
+.bio {
+  color: #9aa6c0;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.stat .number {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f4f6ff;
+}
+.stat .label {
+  font-size: 11px;
+  color: #8390aa;
+  margin-top: 3px;
+}
