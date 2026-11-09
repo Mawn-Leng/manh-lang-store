@@ -8,15 +8,16 @@ window.STORE_APPS = [
     icon: "Meitu.PNG",
     available: true
   },
-  {
-    name: "DNS Locket Gold AI liên hệ Admin",
-    description: "Mở khoá Locket Gold",
-    version: "1.0.0",
-    type: "DNS",                    // ← quan trọng: ghi DNS
-    file: "https://t.me/manhlang",
-    icon: "Ken.PNG",
-    available: true
-  },
+{
+  name: "DNS Locket Gold AI liên hệ Admin",
+  description: "Mở khoá Locket Gold",
+  version: "1.0.0",
+  type: "DNS",
+  file: "https://t.me/manhlang",
+  icon: "Ken.PNG",
+  available: true,
+  buttonText: "Liên hệ Admin"   // ← thêm dòng này
+},
   {
     name: "Mua chứng chỉ liên hệ Admin",
     description: "giá hạt giẻ nha",
