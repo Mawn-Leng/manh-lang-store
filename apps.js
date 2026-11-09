@@ -6,6 +6,7 @@ window.STORE_APPS = [
     description: "Phiên bản 9.9.30",
     version: "9.9.30",
     file: "https://drive.google.com/uc?export=download&id=1nwxDSUAHFBM8pCBQSjVumE4wOoGtltEL",
+    icon: "Meitu.PNG",
     available: true
   }
 ];
