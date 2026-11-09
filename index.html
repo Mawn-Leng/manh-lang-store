@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101525">
+  <meta name="description" content="Mạnh Lăng Store — kho chia sẻ ứng dụng iPhone.">
+  <title>Mạnh Lăng Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">ML</span><span>MẠNH LĂNG <b>STORE</b></span></a>
+    <a class="admin-link" href="#how-to">Hướng dẫn đăng app</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> KHO ỨNG DỤNG IPHONE</div>
+      <h1>Tải ứng dụng<br><span>theo cách của bạn.</span></h1>
+      <p>Khám phá và tải các ứng dụng được chia sẻ tại Mạnh Lăng Store.</p>
+      <a class="hero-button" href="#apps">Khám phá ứng dụng <span>↓</span></a>
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+    </section>
+
+    <section class="section" id="apps">
+      <div class="section-heading">
+        <div><div class="eyebrow muted">THƯ VIỆN</div><h2>Ứng dụng nổi bật</h2></div>
+        <span class="count" id="app-count">01 ứng dụng</span>
+      </div>
+      <div class="app-grid" id="app-grid">
+        <article class="app-card">
+          <div class="app-icon placeholder-icon">M</div>
+          <div class="app-info">
+            <span class="tag">iOS · IPA</span>
+            <h3>Ứng dụng mẫu</h3>
+            <p>Thay thông tin ứng dụng trong file <code>apps.js</code>.</p>
+            <div class="meta">Phiên bản 1.0 <span>•</span> Chưa có file</div>
+          </div>
+          <a class="download disabled" aria-disabled="true">Chưa có file IPA</a>
+        </article>
+      </div>
+      <p class="notice">Lưu ý: tải file IPA không đồng nghĩa ứng dụng có thể cài đặt ngay. iPhone chỉ cài/chạy được ứng dụng khi file được ký hợp lệ và phương thức phân phối tương thích với thiết bị.</p>
+    </section>
+
+    <section class="howto" id="how-to">
+      <div class="eyebrow muted">DÀNH CHO QUẢN TRỊ VIÊN</div>
+      <h2>Cập nhật ứng dụng</h2>
+      <div class="steps">
+        <div><b>01</b><p>Đặt file IPA của bạn vào thư mục <code>apps</code>, ví dụ <code>ung-dung.ipa</code>.</p></div>
+        <div><b>02</b><p>Mở <code>apps.js</code> và sửa tên, mô tả, phiên bản, dung lượng cùng đường dẫn file.</p></div>
+        <div><b>03</b><p>Đưa toàn bộ thư mục website lên GitHub và bật GitHub Pages để xuất bản miễn phí.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Mạnh Lăng Store</span><span>Chia sẻ ứng dụng có trách nhiệm.</span></footer>
+  <script src="apps.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
