@@ -8,6 +8,6 @@ window.STORE_APPS = [
     size: "Đang Hoạt Động",
     file: "https://www.mediafire.com/file/2be27ldmtrosftu/Meitu%252B%252B_9.9.30_LeTi.ipa/file",
     icon: "Meitu.PNG",
-    available: false
+    available: ture
   }
 ];
