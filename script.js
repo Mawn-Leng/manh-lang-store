@@ -56,3 +56,15 @@ window.addEventListener("load", function() {
 function closePopup() {
   document.getElementById("telegram-popup").style.display = "none";
 }
+// Hiện popup khi vào web
+window.addEventListener("load", function() {
+  setTimeout(() => {
+    const popup = document.getElementById("telegram-popup");
+    if (popup) popup.style.display = "flex";
+  }, 800);
+});
+
+function closePopup() {
+  const popup = document.getElementById("telegram-popup");
+  if (popup) popup.style.display = "none";
+}
