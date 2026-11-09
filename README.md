@@ -2,30 +2,6 @@
 
 Website tĩnh chia sẻ file IPA, thiết kế responsive cho iPhone, Android và máy tính.
 
-## Chạy thử
-Mở `index.html` bằng trình duyệt. Khi chạy cục bộ, một số trình duyệt có thể hạn chế tải file; hãy thử qua hosting HTTPS.
-
-## Thêm file IPA
-1. Chép file IPA vào thư mục `apps/`.
-2. Mở `apps.js`.
-3. Sửa thông tin ứng dụng. Ví dụ:
-
-```js
-window.STORE_APPS = [
-  {
-    name: "Tên ứng dụng",
-    description: "Mô tả ứng dụng",
-    version: "2.0",
-    size: "45 MB",
-    file: "apps/ten-ung-dung.ipa",
-    icon: "icons/app.png",
-    available: true
-  }
-];
-```
-
-Tên trong `file` phải khớp chính xác tên file trong thư mục `apps`. Có thể thêm nhiều object để đăng nhiều ứng dụng.
-
 ## Đưa website lên GitHub Pages miễn phí
 1. Đăng nhập GitHub và tạo repository mới, ví dụ `manh-lang-store`.
 2. Tải lên các file trong thư mục này, gồm `index.html`, `style.css`, `apps.js`, `script.js`, và thư mục `apps`.
