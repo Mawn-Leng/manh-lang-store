@@ -2,12 +2,12 @@
 // Đặt file IPA trong thư mục apps/ rồi ghi đúng đường dẫn vào "file".
 window.STORE_APPS = [
   {
-    name: "Ứng dụng của tôi",
-    description: "Mô tả ngắn về ứng dụng.",
+    name: "Meitu",
+    description: "Mở khoá chức năng VIP",
     version: "1.0",
-    size: "Chưa cập nhật",
-    file: "apps/ung-dung-cua-toi.ipa",
-    icon: "",
+    size: "Đang Hoạt Động",
+    file: "https://www.mediafire.com/file/2be27ldmtrosftu/Meitu%252B%252B_9.9.30_LeTi.ipa/file",
+    icon: "Meitu.PNG",
     available: false
   }
 ];
