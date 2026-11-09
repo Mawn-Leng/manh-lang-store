@@ -3,7 +3,7 @@
 window.STORE_APPS = [
   {
     name: "Meitu VIP",
-    description: "Mowr khoá tính năng VIP",
+    description: "Mở khoá tính năng VIP",
     version: "9.9.30",
     file: "https://drive.google.com/uc?export=download&id=1nwxDSUAHFBM8pCBQSjVumE4wOoGtltEL",
     icon: "Meitu.PNG",
