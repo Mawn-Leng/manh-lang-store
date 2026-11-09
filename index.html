@@ -4,61 +4,68 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101525">
-  <meta name="description" content="Mạnh Lăng Store — kho chia sẻ ứng dụng iPhone.">
   <title>Ken Store</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="topbar">
-<a class="brand" href="./">
-  <img class="brand-mark" src="images/Ken.PNG" alt="Avatar">
-  <span>Ken <b>STORE</b></span>
-</a>
-  </header>
 
+  <!-- ===== PHẦN TRANG CÁ NHÂN ===== -->
+  <div class="personal-section">
+    <div class="typing">
+      <span>&lt;/&gt;</span> <span id="typing-text">Developer</span> |
+    </div>
+
+    <div class="profile-card">
+      <div class="banner">
+        <img class="bg" src="images/Banggia.jpg" alt="banner">
+        <div class="avatar-wrapper">
+          <div class="avatar-ring"></div>
+          <img class="avatar" src="images/Ken.PNG" alt="avatar">
+          <div class="status"></div>
+        </div>
+      </div>
+
+      <h1>Ken Store <span class="verified">✓</span></h1>
+      <p class="bio">Kho chia sẻ ứng dụng iPhone • IPA • DNS • Chứng chỉ</p>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="number" data-target="50">0</div>
+          <div class="label">Ứng dụng</div>
+        </div>
+        <div class="stat">
+          <div class="number" data-target="1000">0</div>
+          <div class="label">Lượt tải</div>
+        </div>
+        <div class="stat">
+          <div class="number" data-target="3">0</div>
+          <div class="label">Năm hoạt động</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PHẦN CỬA HÀNG ===== -->
   <main>
-    <section class="hero">
-      <div class="eyebrow"><span class="pulse"></span> KHO ỨNG DỤNG IPHONE</div>
-      <h1>Tải ứng dụng<br><span>theo cách của bạn.</span></h1>
-      <p>Khám phá và tải các ứng dụng được chia sẻ tại Ken Store.</p>
-      <div class="banner-image">
-  <img src="images/Banggia.jpg" alt="Banner">
-</div>
-      <a class="hero-button" href="#apps">Khám phá ứng dụng <span>↓</span></a>
-      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
-    </section>
-
     <section class="section" id="apps">
       <div class="section-heading">
-        <div><div class="eyebrow muted">THƯ VIỆN</div><h2>Ứng dụng nổi bật</h2></div>
+        <div>
+          <div class="eyebrow muted">THƯ VIỆN</div>
+          <h2>Ứng dụng nổi bật</h2>
+        </div>
         <span class="count" id="app-count">01 ứng dụng</span>
       </div>
-      <div class="app-grid" id="app-grid">
-        <article class="app-card">
-          <div class="app-icon placeholder-icon">M</div>
-          <div class="app-info">
-            <span class="tag">iOS · IPA</span>
-            <h3>Ứng dụng mẫu</h3>
-            <p>Thay thông tin ứng dụng trong file <code>apps.js</code>.</p>
-            <div class="meta">Phiên bản 1.0 <span>•</span> Chưa có file</div>
-          </div>
-          <a class="download disabled" aria-disabled="true">Chưa có file IPA</a>
-        </article>
-      </div>
+      <div class="app-grid" id="app-grid"></div>
     </section>
   </main>
 
-  <footer><span>© <span id="year"></span> Ken Store</span><span>Chia sẻ ứng dụng có trách nhiệm.</span></footer>
+  <footer>
+    <span>© <span id="year"></span> Ken Store</span>
+    <span>Chia sẻ ứng dụng có trách nhiệm.</span>
+  </footer>
+
   <script src="apps.js"></script>
   <script src="script.js"></script>
-<!-- Popup thông báo -->
-<div id="telegram-popup" class="popup-overlay">
-  <div class="popup-box">
-    <h3>Tham gia nhóm Telegram</h3>
-    <p>Nhấn vào nút bên dưới để vào nhóm hỗ trợ của Mạnh Lăng Store</p>
-    <a href="https://t.me/locketngu" target="_blank" class="popup-btn">Vào nhóm Telegram</a>
-    <button class="popup-close" onclick="closePopup()">Đóng</button>
-  </div>
-</div>
 </body>
 </html>
