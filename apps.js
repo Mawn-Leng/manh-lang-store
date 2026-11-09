@@ -8,7 +8,7 @@ window.STORE_APPS = [
     file: "https://drive.google.com/uc?export=download&id=1nwxDSUAHFBM8pCBQSjVumE4wOoGtltEL",
     icon: "Meitu.PNG",
     available: true
-  }
+  },
   {
    name: "lấy DNS Locket Gold AI",
    description: "Mở khoá Locket Gold",
