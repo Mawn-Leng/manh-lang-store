@@ -1,11 +1,11 @@
 // Sửa danh sách bên dưới để thêm/cập nhật ứng dụng.
 // Đặt file IPA trong thư mục apps/ rồi ghi đúng đường dẫn vào "file".
 window.STORE_APPS = [
-{
-  name: "Meitu++",
-  description: "Phiên bản 9.9.30",
-  version: "9.9.30",
-  file: "https://www.mediafire.com/file/2be27ldmtrosftu/Meitu%252B%252B_9.9.30_LeTi.ipa/file",
-  available: true
-}
+  {
+    name: "Meitu++",
+    description: "Phiên bản 9.9.30",
+    version: "9.9.30",
+    file: "https://drive.google.com/uc?export=download&id=1nwxDSUAHFBM8pCBQSjVumE4wOoGtltEL",
+    available: true
+  }
 ];
