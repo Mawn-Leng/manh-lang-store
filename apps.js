@@ -16,5 +16,13 @@ window.STORE_APPS = [
     file: "https://t.me/manhlang",
     icon: "Ken.PNG",
     available: true
+  },
+  {
+    name: "Mua chứng chỉ liên hệ Admin",
+    description: "giá hạt giẻ nha",
+    version: "1.9",
+    type: "Chứng chỉ",
+    file: "https://t.me/manhlang",
+    available: true
   }
 ];
