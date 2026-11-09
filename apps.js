@@ -14,7 +14,7 @@ window.STORE_APPS = [
   version: "1.0.0",
   type: "DNS",
   file: "https://t.me/manhlang",
-  icon: "images/Ken.PNG",
+  icon: "images/Locket.PNG",
   available: true,
   buttonText: "Liên hệ Admin"   // ← thêm dòng này
 },
