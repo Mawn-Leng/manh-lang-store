@@ -24,6 +24,7 @@ window.STORE_APPS = [
     version: "1.9",
     type: "Chứng chỉ",
     file: "https://t.me/manhlang",
+    icon: "Esign.WEBP",
     available: true
   }
 ];
