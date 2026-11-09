@@ -2,8 +2,8 @@
 // Đặt file IPA trong thư mục apps/ rồi ghi đúng đường dẫn vào "file".
 window.STORE_APPS = [
   {
-    name: "Meitu++",
-    description: "Phiên bản 9.9.30",
+    name: "Meitu VIP",
+    description: "Mowr khoá tính năng VIP",
     version: "9.9.30",
     file: "https://drive.google.com/uc?export=download&id=1nwxDSUAHFBM8pCBQSjVumE4wOoGtltEL",
     icon: "Meitu.PNG",
