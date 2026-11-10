@@ -20,58 +20,18 @@ h1{font-size:clamp(42px,7vw,76px);line-height:1.1;letter-spacing:-3px;margin:22p
 .howto{padding:35px 0 75px;border-top:1px solid #ffffff12}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:25px}.steps>div{background:#111a2d;border:1px solid var(--line);padding:18px;border-radius:13px}.steps b{color:var(--mint);font-size:12px}.steps p{font-size:11px;color:var(--muted);line-height:1.8;margin-bottom:0}code{color:#c4d0ff;background:#202b43;padding:2px 5px;border-radius:4px;font-size:.92em}
 footer{padding:23px max(6vw,22px);border-top:1px solid #ffffff12;display:flex;justify-content:space-between;color:#7f8aa3;font-size:10px}
 @media(max-width:650px){.hero{padding:70px 0 65px;min-height:370px}.orb-one{right:-130px;top:85px}.orb-two{right:-60px}.app-card{grid-template-columns:52px 1fr;gap:13px;padding:15px}.app-icon{width:52px;height:52px}.download{grid-column:1/-1;text-align:center}.steps{grid-template-columns:1fr}.section-heading{align-items:center}footer{gap:10px;flex-direction:column}.admin-link{font-size:10px}}
-/* ===== Banner Responsive (thu nhỏ trên PC, giữ nguyên điện thoại) ===== */
-.banner-image {
-margin: 20px auto 28px;
-text-align: center;
-max-width: 680px;
-width: 100%;
-}
+Mạnh Lăng:
+/* ===== Banner (thu nhỏ một chút trên laptop) ===== / .banner-image { margin: 18px auto 26px; text-align: center; max-width: 620px; / ← nhỏ hơn một chút trên PC/laptop */ width: 100%; }
+.banner-image img { width: 100%; height: auto; border-radius: 14px; display: block; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.22); }
+/* Điện thoại vẫn full như cũ */ @media (max-width: 768px) { .banner-image { max-width: 100%; margin: 15px 0 22px; padding: 0 6px; } }
 
-.banner-image img {
-width: 100%;
-height: auto;
-border-radius: 16px;
-display: block;
-box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
-}
-
-/* Nút chuyển ảnh - giữ nguyên */
-.btn-switch-banner {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-margin-top: 16px;
-padding: 12px 26px;
-background: linear-gradient(45deg, #1DB954, #1ed760);
-color: white;
-border: none;
-border-radius: 50px;
-font-size: 15px;
-font-weight: 700;
-cursor: pointer;
-transition: 0.25s;
-box-shadow: 0 5px 15px rgba(29, 185, 84, 0.4);
-}
-
-.btn-switch-banner:hover {
-transform: translateY(-2px);
-box-shadow: 0 8px 18px rgba(29, 185, 84, 0.55);
-}
-
-/* Điện thoại vẫn full */
-@media (max-width: 768px) {
-.banner-image {
-max-width: 100%;
-margin: 15px 0 22px;
-padding: 0 6px;
-}
-
-.btn-switch-banner {
-width: 100%;
-max-width: 300px;
-}
-}
+Mạnh Lăng:
+/* ===== Banner + Nút chuyển ảnh ===== / .banner-image { margin: 18px auto 26px; text-align: center; max-width: 620px; / thu nhỏ một chút trên laptop */ width: 100%; }
+.banner-image img { width: 100%; height: auto; border-radius: 14px; display: block; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.22); }
+/* Nút chuyển ảnh - giữ nguyên */ .btn-switch-banner { display: inline-flex; align-items: center; justify-content: center; margin-top: 16px; padding: 12px 26px; background: linear-gradient(45deg, #1DB954, #1ed760); color: white; border: none; border-radius: 50px; font-size: 15px; font-weight: 700; cursor: pointer; transition: 0.25s; box-shadow: 0 5px 15px rgba(29, 185, 84, 0.4); }
+.btn-switch-banner:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(29, 185, 84, 0.55); }
+/* Điện thoại vẫn full */ @media (max-width: 768px) { .banner-image { max-width: 100%; margin: 15px 0 22px; padding: 0 6px; }
+.btn-switch-banner { width: 100%; max-width: 300px; } }
 /* Popup Telegram */
 .popup-overlay {
   position: fixed;
