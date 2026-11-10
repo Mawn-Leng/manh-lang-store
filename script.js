@@ -86,3 +86,22 @@ window.addEventListener("load", () => {
     if (popup) popup.style.display = "flex";
   }, 800);
 });
+// Chuyển banner ảnh 1 ↔ ảnh 2 (gói Spotify)
+let isSpotifyBanner = false;
+
+function switchBanner() {
+const img = document.getElementById("bannerImg");
+const btn = document.getElementById("btnSwitchBanner");
+
+if (!isSpotifyBanner) {
+// Đổi sang ảnh 2 (gói Spotify mới)
+img.src = "images/Banggia2.jpg"; // ← đặt tên file ảnh 2 của bạn ở đây
+btn.innerText = "Quay lại bảng giá cũ";
+isSpotifyBanner = true;
+} else {
+// Quay lại ảnh gốc
+img.src = "images/Banggia.jpg";
+btn.innerText = "Xem Gói Spotify Mới";
+isSpotifyBanner = false;
+}
+}
