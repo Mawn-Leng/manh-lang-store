@@ -95,7 +95,7 @@ const btn = document.getElementById("btnSwitchBanner");
 
 if (!isSpotifyBanner) {
 // Đổi sang ảnh 2 (gói Spotify mới)
-img.src = "images/Banggia2.jpg"; // ← đặt tên file ảnh 2 của bạn ở đây
+img.src = "images/Banggia2.png"; // ← đặt tên file ảnh 2 của bạn ở đây
 btn.innerText = "Quay lại bảng giá cũ";
 isSpotifyBanner = true;
 } else {
