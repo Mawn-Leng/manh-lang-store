@@ -8,15 +8,5 @@ window.STORE_APPS = [
     icon: "images/Locket.PNG",
     available: true,
     buttonText: "Mua gói ngay",
-  },
-  {
-    name: "DNS Spotify Premium",
-    description: "Mở khóa gói Premium",
-    version: "1.0.0",
-    type: "DNS",
-    file: "https://t.me/manhlang?text=Ch%C3%A0o%20Admin%2C%20em%20mu%E1%BB%91n%20mua%20g%C3%B3i%20Spotify%20Premium.",
-    icon: "images/spotify.png",
-    available: true,
-    buttonText: "Mua gói ngay",
   }
 ];
